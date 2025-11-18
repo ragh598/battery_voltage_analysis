@@ -1,6 +1,13 @@
 # Battery Voltage Analysis
 
-Exploratory data analysis and regression modeling for battery voltage prediction. This repository contains a complete analytical pipeline from data preprocessing through model evaluation.
+Exploratory data analysis and regression modeling for battery voltage prediction.
+The data collected from a motor test to better understand the behavior when the drone operates at disturbed environments. 
+This repository contains a complete analytical pipeline from data preprocessing through model evaluation.
+
+These experiment were conducted on Tyto Motor Test bench
+
+![quadrotor](https://github.com/user-attachments/assets/52b99389-4be0-42d8-bcbc-9c715869472f)
+
 
 ## Overview
 
@@ -49,6 +56,10 @@ Execute cells sequentially to reproduce the analysis.
 ```
 battery-voltage-analysis/
 ├── Complete_Analysis_of_Battery-Voltage.ipynb
+├── StepsTest_19pV_1920.csv
+├── StepsTest_19V_1920.csv
+├── StepsTest_20pV_1900.csv
+├── StepsTest_20V_1900.csv
 ├── README.md
 └── requirements.txt
 ```
@@ -65,10 +76,6 @@ The analysis provides:
 
 Pull requests are welcome. For major changes, please open an issue first to discuss proposed modifications.
 
-## License
-
-MIT License
-
 ## Contact
 
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@ragh598](https://github.com/ragh598)
